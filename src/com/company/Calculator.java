@@ -11,23 +11,23 @@ public class Calculator {
     }
 
     public Calculator(double a, double b){
-        this.a = 0;
-        this.b = 0;
+        this.a = a;
+        this.b = b;
     }
 
     public double add(){
-        return a+b;
+        return a + b;
     }
     public double subs(){
-        return a-b;
+        return a - b;
     }
     public double multi(){
-        return a*b;
+        return a * b;
     }
     public double div(){
-        return a/b;
+        return a / b;
     }
     public double mod(){
-        return a%b;
+        return a % b;
     }
 }
